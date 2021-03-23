@@ -1,0 +1,23 @@
+Subject: Nieuwe donatiemelding  - {{ SITENAME }}
+
+Hallo {{ USERNAME }},
+
+Uw donatie aan "{{ SITENAME }}" is ontvangen.
+
+Informatie over uw donatie:
+
+----------------------------
+Transactie ID: {{ TXN_ID }}
+
+Afzender: {{ PAYER_USERNAME }} ({{ PAYER_EMAIL }})
+
+Gedoneerd bedrag: {{ MC_GROSS }}
+Bedrag ontvangen door "{{ SITENAME }}": {{ NET_AMOUNT }}
+
+----------------------------
+
+Als u niet langer op de hoogte wilt worden gehouden wanneer u een donatie doet, kunt u uw meldingsinstellingen hier bijwerken:
+
+{{ U_NOTIFICATION_SETTINGS }}
+
+{{ EMAIL_SIG }}

@@ -1,0 +1,26 @@
+Subject: Nieuwe donatiemelding  - {{ SITENAME }}
+
+Hallo {{ USERNAME }},
+
+Er is een donatie gedaan voor uw forum.
+
+----------------------------
+Transactie ID: {{ TXN_ID }}
+
+Sponsor: {{ PAYER_USERNAME }} ({{ PAYER_EMAIL }})
+
+Gedoneerd bedrag: {{ MC_GROSS }}
+Bedrag ontvangen: {{ NET_AMOUNT }}
+
+----------------------------
+
+Bekijk het PPDE transactielogboek voor meer details.
+
+-----
+
+U ontvangt deze melding omdat u heeft gevraagd om op de hoogte te worden gesteld wanneer u een donatie ontvangt.
+Als u niet langer updates over nieuwe donaties wilt ontvangen, kunt u hier uw meldingsinstellingen bijwerken:
+
+{{ U_NOTIFICATION_SETTINGS }}
+
+{{ EMAIL_SIG }}

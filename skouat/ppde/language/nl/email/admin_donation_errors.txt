@@ -1,0 +1,27 @@
+Subject: Melding van verdachte donatie  - {{ SITENAME }}
+
+Hallo {{ USERNAME }},
+
+Uw forum heeft een PayPal donatie ontvangen. U moet deze onderzoeken omdat er fouten zijn gedetecteerd.
+Totdat u deze donatie goedkeurt, wordt deze niet afgehandeld door PPDE.
+
+----------------------------
+Transactie ID: {{ TXN_ID }}
+
+Sponsor: {{ PAYER_USERNAME }} ({{ PAYER_EMAIL }})
+
+Gedetecteerde fouten:
+{{ TXN_ERRORS }}
+
+----------------------------
+
+Bekijk het transactielogboek voor meer details.
+
+-----
+
+U ontvangt deze melding omdat u heeft gevraagd om op de hoogte te worden gesteld wanneer u een donatie ontvangt.
+Als u niet langer updates over nieuwe donaties wilt ontvangen, kunt u uw meldingsinstellingen hier bijwerken:
+
+{{ U_NOTIFICATION_SETTINGS }}
+
+{{ EMAIL_SIG }}
